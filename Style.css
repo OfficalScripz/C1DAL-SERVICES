@@ -1,0 +1,38 @@
+body {
+    background-color: black; /* Full black background */
+    color: white; /* Ensure text is readable */
+    font-family: Arial, sans-serif; /* Better font */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.pack {
+    border: 2px solid white; /* White outline */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.8); /* Slightly transparent black for contrast */
+    color: white; /* Ensure text is readable */
+}
+
+section {
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    background: #000; /* Full black background */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1); /* Optional subtle shadow */
+}
